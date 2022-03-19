@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "a3307e169f24472f",
+    "type": "split",
+    "children": [
+      {
+        "id": "87cd6319f063dedc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "FreeCodeCamp Solidity/Lesson 3 - Fund Me.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "94809fddbe0e3f0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "73edeede212a1c25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f55f9b45c70c4a0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a6c1480abfd25ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "big endian",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264
+  },
+  "right": {
+    "id": "5ed7b932566b37e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2230b33557287eef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80ddf40e92ba924a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "FreeCodeCamp Solidity/Lesson 3 - Fund Me.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "87cd6319f063dedc",
+  "lastOpenFiles": [
+    "FreeCodeCamp Solidity/Lesson 3 - Fund Me.md",
+    "FreeCodeCamp Solidity/Chapter 2 - Storage Factory.md",
+    "FreeCodeCamp Solidity/Chapter 1 - Basic Solidity.md",
+    "Ethereumbook/14. Consensus.md",
+    "Ethereumbook/13. The EVM.md",
+    "Ethereumbook/7. Smart Contracts Solidity.md",
+    "Ethereumbook/Glossary.md",
+    "Ethereumbook/6. Transactions.md",
+    "Ethereumbook/5. Wallet.md",
+    "Ethereumbook/4. Cryptography.md"
+  ]
+}
