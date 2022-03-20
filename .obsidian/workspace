@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,14 +89,14 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
+    "FreeCodeCamp Solidity/Chapter 2 - Storage Factory.md",
     "README.md",
     "Ethereumbook/5. Wallet.md",
     "Ethereumbook/7. Smart Contracts Solidity.md",
-    "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
     "Ethereumbook/13. The EVM.md",
     "Ethereumbook/6. Transactions.md",
     "Ethereumbook/3. Ethereum Clients.md",
-    "FreeCodeCamp Solidity/Chapter 2 - Storage Factory.md",
     "FreeCodeCamp Solidity/Chapter 1 - Basic Solidity.md",
     "Ethereumbook/14. Consensus.md"
   ]
