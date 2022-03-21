@@ -131,3 +131,4 @@ funders = new address[](0);
 }
 ```
 
+Rest of the stuff is in VScode for this chapter, the code is already in the video's github so I won't repost it again.
