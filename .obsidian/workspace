@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
+            "file": "FreeCodeCamp Solidity/Chapter 5 - Brownie Simple Storage.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
+                "file": "FreeCodeCamp Solidity/Chapter 5 - Brownie Simple Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "FreeCodeCamp Solidity/Chapter 5 - Brownie Simple Storage.md",
+    "FreeCodeCamp Solidity/Chapter 4 - Web3.py Simple Storage.md",
     "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
     "README.md",
     "FreeCodeCamp Solidity/Chapter 2 - Storage Factory.md",
@@ -96,8 +98,6 @@
     "Ethereumbook/7. Smart Contracts Solidity.md",
     "Ethereumbook/13. The EVM.md",
     "Ethereumbook/6. Transactions.md",
-    "Ethereumbook/3. Ethereum Clients.md",
-    "FreeCodeCamp Solidity/Chapter 1 - Basic Solidity.md",
-    "Ethereumbook/14. Consensus.md"
+    "Ethereumbook/3. Ethereum Clients.md"
   ]
 }
