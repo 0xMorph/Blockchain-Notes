@@ -143,3 +143,6 @@ funders = new address[](0);
 
 }
 ``````
+
+For some reason, I could not verify the contract through Etherscan, tried for hours, decided to skip and see how this goes.
+
