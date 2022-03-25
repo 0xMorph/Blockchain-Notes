@@ -1,0 +1,1 @@
+Has a template for testing stuff, just `brownie bake chainlink-mix`
