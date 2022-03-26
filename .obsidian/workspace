@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FreeCodeCamp Solidity/Chapter 9 - ERC20s, EIPs and Token Standards.md",
+            "file": "FreeCodeCamp Solidity/Chapter 10 - Defi & Aave.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FreeCodeCamp Solidity/Chapter 9 - ERC20s, EIPs and Token Standards.md",
+                "file": "FreeCodeCamp Solidity/Chapter 10 - Defi & Aave.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "FreeCodeCamp Solidity/Chapter 10 - Defi & Aave.md",
     "FreeCodeCamp Solidity/Chapter 9 - ERC20s, EIPs and Token Standards.md",
     "FreeCodeCamp Solidity/Chapter 8 - Chainlink Mix.md",
     "FreeCodeCamp Solidity/Chapter 7 - Brownie Lottery.md",
@@ -97,7 +98,6 @@
     "FreeCodeCamp Solidity/Chapter 4 - Web3.py Simple Storage.md",
     "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
     "README.md",
-    "FreeCodeCamp Solidity/Chapter 2 - Storage Factory.md",
-    "Ethereumbook/5. Wallet.md"
+    "FreeCodeCamp Solidity/Chapter 2 - Storage Factory.md"
   ]
 }
