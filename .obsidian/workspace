@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FreeCodeCamp Solidity/Chapter 11 - NFTs.md",
+            "file": "FreeCodeCamp Solidity/Chapter 12 - Upgrading Contracts.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FreeCodeCamp Solidity/Chapter 11 - NFTs.md",
+                "file": "FreeCodeCamp Solidity/Chapter 12 - Upgrading Contracts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "FreeCodeCamp Solidity/Chapter 12 - Upgrading Contracts.md",
     "FreeCodeCamp Solidity/Chapter 11 - NFTs.md",
     "FreeCodeCamp Solidity/Chapter 10 - Defi & Aave.md",
     "FreeCodeCamp Solidity/Chapter 9 - ERC20s, EIPs and Token Standards.md",
@@ -97,7 +98,6 @@
     "FreeCodeCamp Solidity/Chapter 6 - Brownie Fund Me.md",
     "FreeCodeCamp Solidity/Chapter 5 - Brownie Simple Storage.md",
     "FreeCodeCamp Solidity/Chapter 4 - Web3.py Simple Storage.md",
-    "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md",
-    "README.md"
+    "FreeCodeCamp Solidity/Chapter 3 - Fund Me.md"
   ]
 }
