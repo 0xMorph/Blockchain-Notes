@@ -7,3 +7,4 @@ Each token has a token ID and a token URI.
 
 A token URI is like an API call, with certain info associated with it.
 
+The asset itself is not stored on the blockchain, instead on 3rd party data storage places like IPFS.
