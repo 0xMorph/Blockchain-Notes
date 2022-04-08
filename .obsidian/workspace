@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "March 2022 Progress Report.md",
+            "file": "Smart Contract Best Practices/General Philosophy.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "March 2022 Progress Report.md",
+                "file": "Smart Contract Best Practices/General Philosophy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "Smart Contract Best Practices/General Philosophy.md",
     "March 2022 Progress Report.md",
     "FreeCodeCamp Solidity/Chapter 12 - Upgrading Contracts.md",
     "FreeCodeCamp Solidity/Chapter 11 - NFTs.md",
@@ -97,7 +98,6 @@
     "FreeCodeCamp Solidity/Chapter 8 - Chainlink Mix.md",
     "FreeCodeCamp Solidity/Chapter 7 - Brownie Lottery.md",
     "FreeCodeCamp Solidity/Chapter 6 - Brownie Fund Me.md",
-    "FreeCodeCamp Solidity/Chapter 5 - Brownie Simple Storage.md",
-    "FreeCodeCamp Solidity/Chapter 4 - Web3.py Simple Storage.md"
+    "FreeCodeCamp Solidity/Chapter 5 - Brownie Simple Storage.md"
   ]
 }
