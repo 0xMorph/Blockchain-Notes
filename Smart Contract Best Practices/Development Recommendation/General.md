@@ -65,4 +65,12 @@ If low-level call methods are used, consider the possibility that the call will 
 someAddress.send(55);
 someAddress.call.value(55)(""); //very dangerous, will forward ALL remaining gas and not check for results
 someAddress.call.value(100)(bytes4(sha3("deposit()"))); // if deposit throws an exception, the raw call() returns false and transaction will NOT be reverted
+
+// good
+(bool success, ) = someAddress.call.value(55)("");
+if(!success) {
+	//handle failure code
+}
+
+ExternalContract(someAddress).deposit.value(100)();
 ```
