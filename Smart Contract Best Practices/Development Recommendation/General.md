@@ -56,4 +56,13 @@ contract Fixed {
 To prevent reentrancy attacks, it is recommended that you use the [checks-effects-interactions pattern](https://solidity.readthedocs.io/en/develop/security-considerations.html?highlight=check%20effects#use-the-checks-effects-interactions-pattern).
 
 #### Handle errors in external calls
-Solidity has low-level call methods that work on raw addresses: `address.call()`, `address.callcode()`, `address.delegatecall()` and `address.send()`.
+Solidity has low-level call methods that work on raw addresses: `address.call()`, `address.callcode()`, `address.delegatecall()` and `address.send()`. These methods never throw an exception, and will return `false` when an exception is encountered. While `contract calls` (e.g. `ExternalContract.doSomething()`) automatically propagates a throw, if `doSomething()` throws.
+
+If low-level call methods are used, consider the possibility that the call will fail, by checking the return value.
+
+```sol
+// bad
+someAddress.send(55);
+someAddress.call.value(55)(""); //very dangerous, will forward ALL remaining gas and not check for results
+someAddress.call.value(100)(bytes4(sha3("deposit()"))); // if deposit throws an exception, the raw call() returns false and transaction will NOT be reverted
+```
