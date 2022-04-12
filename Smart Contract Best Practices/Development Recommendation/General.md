@@ -74,3 +74,6 @@ if(!success) {
 
 ExternalContract(someAddress).deposit.value(100)();
 ```
+
+#### Favor pull over push for external calls
+External calls can fail. Better to isolate each external call to its own transaction that can be initiated by the recipient of the call.
