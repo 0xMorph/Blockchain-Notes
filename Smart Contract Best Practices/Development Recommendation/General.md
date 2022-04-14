@@ -77,3 +77,12 @@ ExternalContract(someAddress).deposit.value(100)();
 
 #### Favor pull over push for external calls
 External calls can fail. Better to isolate each external call to its own transaction that can be initiated by the recipient of the call.
+
+Payments especially, better to allow users to withdraw funds than push funds to them automatically, also reduces gas limits problems. Avoid combining multiple ether transfers in a single transaction.
+
+```sol
+// bad
+contract auction {
+	address highestBidder
+}
+```
