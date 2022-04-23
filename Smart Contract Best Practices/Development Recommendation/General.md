@@ -83,6 +83,15 @@ Payments especially, better to allow users to withdraw funds than push funds to 
 ```sol
 // bad
 contract auction {
-	address highestBidder
+	address highestBidder;
+	uint highestbid;
+
+	function bid() payable {
+		require(msg.value >= highestBid);
+
+		if (highestBidder != address(0)) {
+			(bool success, ) = highestBidder.call.value(highestBid)("");
+		}
+	}
 }
 ```
