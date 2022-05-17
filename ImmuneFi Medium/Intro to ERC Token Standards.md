@@ -42,3 +42,14 @@ ERC223 introduces a callback function for the receiving contract to handle incom
 
 This is how `transfer()` function looks for ERC223.
 
+```sol
+function transfer(address _to, uint _amount, bytes calldata _data) public override returns (bool success) {
+	balances[msg.sender] = balances[msg.sender] - _amount;
+	if(Address.isContract(_to)) {
+		IERC223Recipient(_to).tokenReceived(msg.sender, _amount, _data);
+	}
+	emit Transfer(msg.sender, _to, _amount);
+	emit TransferData(_data);
+	return true;
+}
+```
