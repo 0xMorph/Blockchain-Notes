@@ -38,4 +38,7 @@ Fix ERC20 issues like save token losses from accidental transfers and gives rece
 
 No longer follows `(approve + transferFrom)` ERC20 multistep standards to transfer the tokens to the contract. Gas efficient solution requiring only 1 transaction to transfer tokens to a contract.
 
-ERC223 introduces a callback function for the receiving contract to handle incoming tokens via the `tokenReceived` function
+ERC223 introduces a callback function for the receiving contract to handle incoming tokens via the `tokenReceived` function. Users can add custom logic to accept or reject tokens arriving at their contract address with that `tokenReceived` function. If they don't have that function, the transaction reverts, preventing accidental transfers to non-supported standard contracts.
+
+This is how `transfer()` function looks for ERC223.
+
