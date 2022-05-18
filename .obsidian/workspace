@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ImmuneFi Medium/Intro to ERC Token Standards.md",
+            "file": "Secureum/Ethereum 101.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ImmuneFi Medium/Intro to ERC Token Standards.md",
+                "file": "Secureum/Ethereum 101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "Secureum/Ethereum 101.md",
     "ImmuneFi Medium/Intro to ERC Token Standards.md",
     "Code4rena Reports/2022-02-jpyc.md",
     "Foundry Book/Notes.md",
@@ -97,7 +98,6 @@
     "Smart Contract Best Practices/General Philosophy.md",
     "Soliditylang.org/Untitled.md",
     "Smart Contract Best Practices/Development Recommendation.md",
-    "March 2022 Progress Report.md",
-    "FreeCodeCamp Solidity/Chapter 12 - Upgrading Contracts.md"
+    "March 2022 Progress Report.md"
   ]
 }
