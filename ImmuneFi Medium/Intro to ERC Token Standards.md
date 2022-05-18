@@ -53,3 +53,24 @@ function transfer(address _to, uint _amount, bytes calldata _data) public overri
 	return true;
 }
 ```
+
+`transfer()` takes another optional argument `data`, used to make a call to the recipient contract with the data supplied by the caller. The recipient contract can use this data to do something. This behavior also introduces the concept of transfer + call. This transfers the tokens and instructs for something to be done on the recipient contract.
+
+If recipient address is a contract, the ERC223 token makes a call to the recipient contract on `tokenReceived` function.
+
+```sol
+function tokenReceived(address _from, uint _amount, bytes memory _data) public {
+	// handling incoming token logic
+	require(msg.sender == address(token));
+	balanceOf[_from] += _amount;
+	// do something with the data supplied
+	doSomething(_data);
+}
+```
+
+The contract can define its own logic to accept the incoming token transfer or to reject and many more.
+
+Drawback of ERC223 is that it overrides the design of `transfer(address, uint256, bytes)` function since it changes the standard behavior of ERC20's `transfer(address, uint256)`. Not backward compatible with existing ERC20 compatible contracts, since `tokenReceived()` is required on the receiving contract else the transfer would just revert.
+
+## ERC677
+ERC677 provides useful functionality without colliding with ERC20 standard. ERC677 adds a new function `transferAndCall()` to the existing ERC20 standard, unlike ERC223, which overrides the existing `transfer()` function.
