@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Secureum/Ethereum 101.md",
+            "file": "Smart Contract Best Practices/Development Recommendation/General.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secureum/Ethereum 101.md",
+                "file": "Smart Contract Best Practices/Development Recommendation/General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,9 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "Smart Contract Best Practices/Development Recommendation/General.md",
     "Secureum/Ethereum 101.md",
     "Smart Contract Best Practices/General Philosophy.md",
-    "Smart Contract Best Practices/Development Recommendation/General.md",
     "1mages/Pasted image 20220518124056.png",
     "ImmuneFi Medium/Intro to ERC Token Standards.md",
     "Code4rena Reports/2022-02-jpyc.md",

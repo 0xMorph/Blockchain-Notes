@@ -91,7 +91,24 @@ contract auction {
 
 		if (highestBidder != address(0)) {
 			(bool success, ) = highestBidder.call.value(highestBid)("");
+			require(success); // if this call consistently fails, no one can bid
 		}
+
+		highestBidder = msg.sender;
+		highestBid = msg.value;
+	}
+}
+
+// good
+contract auction {
+	address highestBidder;
+	uint highestBid;
+	mapping(address => uint) refunds;
+
+	function bid() payable external {
+		require(msg.value >= highestbid);
+
+		if
 	}
 }
 ```
