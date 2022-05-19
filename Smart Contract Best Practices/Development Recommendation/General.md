@@ -108,7 +108,22 @@ contract auction {
 	function bid() payable external {
 		require(msg.value >= highestbid);
 
-		if
+		if (highestBidder != address(0)) {
+			refunds[highestBidder] += highestBid; // record the refund that this user can claim
+		}
+
+		highestBidder = msg.sender;
+		highestBid = msg.value;
+	}
+
+	function withdrawRefund() external {
+		uint refund = refunds[msg.sender];
+		refunds[msg.sender] = 0;
+		(bool success, ) = msg.sender.call.value(refund)("");
+		require(success);
 	}
 }
 ```
+
+#### Don't delegatecall to untrusted code
+The `delegatecall` function is used to call functions from other contracts as if they belong to the caller contract. Thus
