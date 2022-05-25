@@ -126,4 +126,13 @@ contract auction {
 ```
 
 #### Don't delegatecall to untrusted code
-The `delegatecall` function is used to call functions from other contracts as if they belong to the caller contract. Thus
+The `delegatecall` function is used to call functions from other contracts as if they belong to the caller contract. Thus the callee may chage the state of the calling address. This may be insecure, as here is an example showing how `delegatecall` can lead to destruction of the contract and loss of its balance.
+
+```sol
+contract Destructor
+{
+	function doWork() external {
+		selfdestruct(0);
+	}
+}
+```
