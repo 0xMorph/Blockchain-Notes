@@ -143,3 +143,15 @@ contract Worker {
 }
 ```
 If `Worker.doWork()` is called with the address of the deployed `Destructor` contract as an argument, the `Worker` contract will self-destruct
+
+## Force-feeding Ether
+Caution on coding an invariant that strictly checks the balance of a contract.
+
+An attacker and force to send ether to any account and it cannot be prevented, not even via a fallback function that does a `revert()`.
+
+Attacker creates a contract, funding it with 1 wei, then invoking `selfdestruct(victimAddress)`. No code is invoked in `victimAddress`, so it cannot be prevented. This is also true of block reward which is sent to the address of the miner, which can be any arbitrary address. 
+
+Since the contract address can be precomputed, ether can eb sent to an address before the contract is deployed.
+
+## Public on-chain Data
+Avoid requiring users to publish info too early. Use commitment schemes with separate phases
