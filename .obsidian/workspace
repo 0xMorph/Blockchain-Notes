@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Smart Contract Best Practices/Development Recommendation/General.md",
+            "file": "List of known attack vectors and common anti patterns.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Smart Contract Best Practices/Development Recommendation/General.md",
+                "file": "List of known attack vectors and common anti patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "List of known attack vectors and common anti patterns.md",
+    "Secureum/Ethereum 101.md",
+    "Code4rena Reports/2022-02-jpyc.md",
+    "README.md",
     "Smart Contract Best Practices/Development Recommendation/General.md",
     "Smart Contract Best Practices/General Philosophy.md",
-    "Secureum/Ethereum 101.md",
     "1mages/Pasted image 20220518124056.png",
     "ImmuneFi Medium/Intro to ERC Token Standards.md",
-    "Code4rena Reports/2022-02-jpyc.md",
     "Foundry Book/Notes.md",
-    "README.md",
-    "Soliditylang.org/Untitled.md",
-    "Smart Contract Best Practices/Development Recommendation.md"
+    "Soliditylang.org/Untitled.md"
   ]
 }
