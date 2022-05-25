@@ -155,3 +155,7 @@ Since the contract address can be precomputed, ether can eb sent to an address b
 
 ## Public on-chain Data
 Avoid requiring users to publish info too early. Use commitment schemes with separate phases
+
+I will stop taking notes here for these few weeks, need to focus on more exploitation stuff over development stuff.
+
+https://consensys.github.io/smart-contract-best-practices/development-recommendations/general/public-data/
