@@ -129,10 +129,17 @@ contract auction {
 The `delegatecall` function is used to call functions from other contracts as if they belong to the caller contract. Thus the callee may chage the state of the calling address. This may be insecure, as here is an example showing how `delegatecall` can lead to destruction of the contract and loss of its balance.
 
 ```sol
-contract Destructor
-{
+contract Destructor {
 	function doWork() external {
 		selfdestruct(0);
 	}
 }
+
+contract Worker {
+	function doWork(address _internalWorker) public {
+		//unsafe
+		_internalWorker.delegatecall(bytes4(keccak256("doWork()")));
+	}
+}
 ```
+If `Worker.doWork()` is called with the address of the deployed `Destructor` contract as an argument, the `Worker` contract will self-destruct
