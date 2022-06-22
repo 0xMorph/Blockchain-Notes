@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Audit Findings Notes/Low Risk/Unused RECEIVE() function will lock Ether in contract.md",
+            "file": "Audit Findings Notes/Low Findings.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416
+    "width": 230
   },
   "right": {
     "id": "5ed7b932566b37e6",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Audit Findings Notes/Low Risk/Unused RECEIVE() function will lock Ether in contract.md",
+                "file": "Audit Findings Notes/Low Findings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,11 +89,11 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
-    "Audit Findings Notes/Low Risk/Unused RECEIVE() function will lock Ether in contract.md",
+    "Audit Findings Notes/Low Findings.md",
     "Audit Findings Notes/Gas Optimization/Caching storage variables in memory to save gas.md",
+    "Audit Findings Notes/Low Risk/Unused RECEIVE() function will lock Ether in contract.md",
     "Audit Findings Notes/Untitled 1.md",
     "Audit Findings Notes/Untitled 2.md",
-    "Audit Findings Notes/Untitled.md",
     "Secureum/Security Pitfalls & Best Practices 101 201.md",
     "Secureum/Audit Findings 101 201.md",
     "Secureum/Audit Techniques & Tools 101.md",
