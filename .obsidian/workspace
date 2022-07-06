@@ -9,8 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Secureum/Audit Techniques & Tools 101.md",
+            "file": "CTFs/Ethernaut Solutions/3 - Coinflip.md",
             "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "7b578e624ba58815",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CTFs/Ethernaut Solutions/1 - Fallback.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secureum/Audit Techniques & Tools 101.md",
+                "file": "CTFs/Ethernaut Solutions/3 - Coinflip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +101,15 @@
   },
   "active": "87cd6319f063dedc",
   "lastOpenFiles": [
+    "CTFs/Ethernaut Solutions/3 - Coinflip.md",
+    "CTFs/Ethernaut Solutions/2 - Fallout.md",
+    "CTFs/Ethernaut Solutions/1 - Fallback.md",
+    "CTFs/Ethernaut Solutions/0 - Hello Ethernaut.md",
     "Secureum/Audit Techniques & Tools 101.md",
     "Audit Findings Notes/Low Findings.md",
     "Audit Findings Notes/Gas Optimization/Caching storage variables in memory to save gas.md",
     "Audit Findings Notes/Low Risk/Unused RECEIVE() function will lock Ether in contract.md",
     "Audit Findings Notes/Untitled 1.md",
-    "Audit Findings Notes/Untitled 2.md",
-    "Secureum/Security Pitfalls & Best Practices 101 201.md",
-    "Secureum/Audit Findings 101 201.md",
-    "Secureum/Solidity 101 201.md",
-    "List of known attack vectors and common anti patterns.md"
+    "Audit Findings Notes/Untitled 2.md"
   ]
 }
